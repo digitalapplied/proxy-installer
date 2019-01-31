@@ -1,4 +1,4 @@
-# Squid Proxy Installer
+# Proxy Installer
 
 Auto install proxy on:
 
