@@ -17,6 +17,18 @@ chmod 755 proxy-install.sh
 sudo ./proxy-install.sh
 ```
 
+Auto install script
+To change the proxy username > change 'usern'
+To change the proxy password > change 'passw'
+
+```
+#!/bin/sh
+
+wget https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/squid3-install.sh
+bash squid3-install.sh
+/usr/bin/htpasswd -b -c /etc/squid/passwd usern passw
+```
+
 # Create Users
 
 To create users, run
