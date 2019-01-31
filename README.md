@@ -24,8 +24,8 @@ To change the proxy password > change 'passw'
 ```
 #!/bin/sh
 
-wget https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/squid3-install.sh
-bash squid3-install.sh
+wget https://raw.githubusercontent.com/digitalapplied/proxy-installer/master/proxy-install.sh
+bash proxy-install.sh
 /usr/bin/htpasswd -b -c /etc/squid/passwd usern passw
 ```
 
