@@ -1,20 +1,20 @@
 # Squid Proxy Installer
 
-Auto install Squid 3 proxy on
+Auto install proxy on:
 
 Ubuntu 18.04
 Ubuntu 14.04
 Ubuntu 16.04
 Debian 8 
 
-## Install Squid
+## Install Proxy
 
 To install, run the script
 
 ```
-wget https://raw.githubusercontent.com/digitalapplied/proxy-installer/master/proxy-installer.sh
-chmod 755 squid3-install.sh
-sudo ./squid3-install.sh
+wget https://raw.githubusercontent.com/digitalapplied/proxy-installer/master/proxy-install.sh
+chmod 755 proxy-install.sh
+sudo ./proxy-install.sh
 ```
 
 # Create Users
