@@ -9,7 +9,7 @@ Debian 8
 
 ## Install Proxy
 
-To install, run the script
+To install, run the script:
 
 ```
 wget https://raw.githubusercontent.com/digitalapplied/proxy-installer/master/proxy-install.sh
@@ -17,7 +17,7 @@ chmod 755 proxy-install.sh
 sudo ./proxy-install.sh
 ```
 
-Auto install script
+Auto install script:
 To change the proxy username > change 'usern'
 To change the proxy password > change 'passw'
 
@@ -31,7 +31,7 @@ bash squid3-install.sh
 
 # Create Users
 
-To create users, run
+To create users, run:
 
 ```
 /usr/bin/htpasswd -b -c /etc/squid/passwd USERNAME_HERE PASSWORD_HERE
